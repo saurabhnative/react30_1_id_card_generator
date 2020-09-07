@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 .text-center { 
@@ -7,8 +8,6 @@
 }
 
 .section-container {
-    width: 50vw;
-    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;

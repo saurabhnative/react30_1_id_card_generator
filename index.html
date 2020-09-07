@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            ID Card generator
+        </title>
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <header class="text-center">
+                <h1>ID Card generator</h1>
+        </header>
+        <div class="container">
+            <div class="section-container">
+                <div class="text-center">
+                    Input form
+                </div>
+                <form onsubmit="return false">
+                    <div class="form-element">
+                        <label class="form-label">
+                            Enter Name:
+                        </label>
+                        <input type="text" id="name"/>
+                    </div>
+                    <div class="form-element">
+                        <label class="form-label">
+                            Enter College Name:
+                        </label>
+                        <input type="text" id="collegeName" />
+                    </div>
+                    <div class="form-element">
+                        <label class="form-label">
+                            Enter Location:
+                        </label>
+                        <input type="text" id="location" />
+                    </div>
+                    <button onclick="generateCard()">Generate Card</button>
+                </form>
+            </div> 
+            <div class="section-container">
+                <div class="id-card-container" id="collegeCard">
+                    <div class="text-center">
+                        Generated Card
+                    </div>
+                    <div class="card-container">
+                        <div class="card-wrapper">
+                            <div class="user-card">
+                                <span class="user-photo">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                            </div>
+                            <div class="general-information">
+                            <div class="card-element card-name">
+                                <span>Name:</span>
+                                <span id="cardName"></span>
+                            </div>
+                            <div class="card-element college-name">
+                                <span>College Name:</span>
+                                <span id="cardCollegeName"></span>
+                            </div>
+                            <div class="card-element college-name">
+                                <span>Location:</span>
+                                <span id="cardLocation"></span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

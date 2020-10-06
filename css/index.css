@@ -1,35 +1,37 @@
-.container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .text-center {
+/* Header css */
+.bd-navbar {
+    min-height: 4rem;
+    background-color: #7952b3;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.text-center {
     text-align: center;
-  }
-  
-  .section-container {
+}
+
+.section-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border: 1px solid black;
-  }
-  
-  .form-element {
+}
+
+.form-element {
     margin: 5px;
     min-width: 200px;
     display: flex;
-  }
-  
-  .form-label {
+}
+
+.form-label {
     min-width: 150px;
-  }
-  
-  .id-card-container {
-    display: block;
-  }
-  
-  .card-container {
+}
+
+.id-card-container {
+    display: none;
+}
+
+.card-container {
     width: 90vw;
     height: 300px;
     border-radius: 10px;
@@ -39,9 +41,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .card-wrapper {
+    max-width: 500px;
+}
+
+.card-wrapper {
     width: 80vw;
     height: 250px;
     background-color: #fff;
@@ -52,9 +55,9 @@
     position: relative;
     margin: 1.5rem;
     display: flex;
-  }
-  
-  .user-card {
+}
+
+.user-card {
     width: 30vw;
     height: 100%;
     position: relative;
@@ -62,30 +65,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .general-information {
+}
+
+.general-information {
     width: 60vw;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  
-  .user-photo {
+}
+
+.user-photo {
     font-size: 7em;
-  }
-  
-  .card-element {
+}
+
+.card-element {
     margin-left: 10px;
     margin-bottom: 15px;
-  }
-  
-  .card-name {
+}
+
+.card-name {
     font-size: 1.5rem;
-  }
-  
-  .college-name {
+}
+
+.college-name {
     font-size: 1.2rem;
-  }
-  
+}

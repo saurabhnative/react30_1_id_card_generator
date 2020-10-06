@@ -1,55 +1,59 @@
 <html>
-    <head>
-        <title>
-            ID Card generator
-        </title>
-        <link rel="stylesheet" href="./css/index.css" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    </head>
-    <body>
-        <header class="text-center">
-                <h1>ID Card generator</h1>
-        </header>
-        <div class="container">
-            <div class="section-container">
-                <div class="text-center">
-                    Input form
+
+<head>
+    <title>
+        ID Card generator
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+        <div class="text-light w-100 h3 text-center">ID Card generator</div>
+    </header>
+    <div class="container d-flex">
+        <div class="section-container col-6">
+            <div class="text-center">
+                Input form
+            </div>
+            <form onsubmit="return false">
+                <div class="form-element">
+                    <label class="form-label">
+                        Enter Name:
+                    </label>
+                    <input type="text" id="name" />
                 </div>
-                <form onsubmit="return false">
-                    <div class="form-element">
-                        <label class="form-label">
-                            Enter Name:
-                        </label>
-                        <input type="text" id="name"/>
-                    </div>
-                    <div class="form-element">
-                        <label class="form-label">
-                            Enter College Name:
-                        </label>
-                        <input type="text" id="collegeName" />
-                    </div>
-                    <div class="form-element">
-                        <label class="form-label">
-                            Enter Location:
-                        </label>
-                        <input type="text" id="location" />
-                    </div>
-                    <button onclick="generateCard()">Generate Card</button>
-                </form>
-            </div> 
-            <div class="section-container">
-                <div class="id-card-container" id="collegeCard">
-                    <div class="text-center">
-                        Generated Card
-                    </div>
-                    <div class="card-container">
-                        <div class="card-wrapper">
-                            <div class="user-card">
-                                <span class="user-photo">
-                                    <i class="fa fa-user"></i>
-                                </span>
-                            </div>
-                            <div class="general-information">
+                <div class="form-element">
+                    <label class="form-label">
+                        Enter College Name:
+                    </label>
+                    <input type="text" id="collegeName" />
+                </div>
+                <div class="form-element">
+                    <label class="form-label">
+                        Enter Location:
+                    </label>
+                    <input type="text" id="location" />
+                </div>
+                <button onclick="generateCard()">Generate Card</button>
+            </form>
+        </div>
+        <div class="section-container col-6">
+            <div class="id-card-container" id="collegeCard">
+                <div class="text-center">
+                    Generated Card
+                </div>
+                <div class="card-container">
+                    <div class="card-wrapper">
+                        <div class="user-card">
+                            <span class="user-photo">
+                                <i class="fa fa-user"></i>
+                            </span>
+                        </div>
+                        <div class="general-information">
                             <div class="card-element card-name">
                                 <span>Name:</span>
                                 <span id="cardName"></span>
@@ -62,12 +66,13 @@
                                 <span>Location:</span>
                                 <span id="cardLocation"></span>
                             </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </div>    
+            </div>
         </div>
-        <script src="./js/index.js"></script>
-    </body>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
 </html>

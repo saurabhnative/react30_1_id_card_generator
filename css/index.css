@@ -1,12 +1,14 @@
-.container {
-  display: flex;
-  flex-direction: column;
-}
+/*.container {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*}*/
 
 .text-center {
   text-align: center;
 }
-
+.bg-gradient{
+  background: linear-gradient(45deg, rgba(104, 255, 255, 0.39), #ffdaf6);
+}
 .section-container {
   display: flex;
   justify-content: center;
@@ -30,11 +32,11 @@
 }
 
 .card-container {
-  width: 90vw;
+  /*width: 90vw;*/
   height: 300px;
   border-radius: 10px;
   margin: 10px;
-  background: #fceeb5;
+  /*background: #fceeb5;*/
   font-family: Abel, Arial, Verdana, sans-serif;
   display: flex;
   align-items: center;

@@ -3,18 +3,21 @@
         <title>
             ID Card generator
         </title>
-        <link rel="stylesheet" href="./css/index.css" />
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./css/index.css" />
+
     </head>
     <body>
         <header class="text-center">
                 <h1>ID Card generator</h1>
         </header>
-        <div class="container">
-            <div class="section-container">
-                <div class="text-center">
+        <div class="container-fluid">
+            <div class="section-container bg-gradient">
+                <h1 class="text-center my-5">
                     Input form
-                </div>
+                </h1>
                 <form onsubmit="return false">
                     <div class="form-element">
                         <label class="form-label">
@@ -34,14 +37,14 @@
                         </label>
                         <input type="text" id="location" />
                     </div>
-                    <button onclick="generateCard()">Generate Card</button>
+                    <button onclick="generateCard()" class="btn btn-info d-block mx-auto mt-5 shadow">Generate Card</button>
                 </form>
             </div> 
-            <div class="section-container">
+            <div class="section-container bg-gradient">
                 <div class="id-card-container" id="collegeCard">
-                    <div class="text-center">
+                    <h1 class="text-center mt-5">
                         Generated Card
-                    </div>
+                    </h1>
                     <div class="card-container">
                         <div class="card-wrapper">
                             <div class="user-card">

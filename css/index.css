@@ -28,11 +28,10 @@
 }
 
 .id-card-container {
-  display: block;
+  display: none;
 }
 
 .card-container {
-<<<<<<< HEAD
     width: 90vw;
     height: 300px;
     border-radius: 10px;
@@ -74,48 +73,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-=======
-  width: 90vw;
-  height: 300px;
-  border-radius: 10px;
-  margin: 10px;
-  background: #fceeb5;
-  font-family: Abel, Arial, Verdana, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card-wrapper {
-  width: 80vw;
-  height: 250px;
-  background-color: #fff;
-  background: linear-gradient(#f8f8f8, #fff);
-  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
-  border-radius: 6px;
-  overflow: hidden;
-  position: relative;
-  margin: 1.5rem;
-  display: flex;
-}
-
-.user-card {
-  width: 30vw;
-  height: 100%;
-  position: relative;
-  background: linear-gradient(#92bca6, #a2ccb6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.general-information {
-  width: 60vw;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
->>>>>>> 822e4a5ae6e72d67e802f911f3e6080ddd1e3336
 }
 
 .user-photo {

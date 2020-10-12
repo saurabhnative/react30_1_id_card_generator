@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>
+        ID Card generator
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body class="container-general">
+
+    <section class="w-100">
+        <header class="container d-flex bd-navbar">
+            <div class="text-light w-100  text-center title-navbar">ID Card Generator</div>
+        </header>
+        <div class="container d-flex container-box ">
+            <div class="section-container section-left col-6 pt-3 pb-3">
+                <div class="text-left subtitle-section">
+                    <p>
+                        Enter Student Details
+                    </p>
+
+                </div>
+                <form onsubmit="return false" class="form-box">
+                    <div class="form-element font-icon">
+                        <label class="form-label">
+                            Enter Name:
+                        </label>
+
+                        <input class="form-input" type="text" id="name" />
+                        <i class="fa fa-user fa-lg"></i>
+                    </div>
+                    <div class="form-element font-icon">
+                        <label class="form-label">
+                            Enter College Name:
+                        </label>
+                        <input class="form-input" type="text" id="collegeName" />
+                        <i class="fa fa-university"></i>
+                    </div>
+                    <div class="form-element font-icon">
+                        <label class="form-label">
+                            Enter Location:
+                        </label>
+                        <input class="form-input" type="text" id="location" />
+                        <i class="fa fa-address-book"></i>
+                    </div>
+                    <div class="d-flex ">
+                        <button class="btn-generate" onclick="generateCard()">Generate Card</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="section-container section-right col-6">
+                <div class="id-card-container" id="collegeCard">
+                    <div class="text-center subtitle-card">
+                        Generated ID Card
+                    </div>
+                    <div class="card-container">
+                        <div class="card-wrapper">
+                            <div class="user-card">
+                                <span class="user-photo">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                            </div>
+                            <div class="general-information">
+                                <div class="card-element card-name">
+                                    <span class="card-title">Name:</span>
+                                    <span class="card-input" id="cardName"></span>
+                                </div>
+                                <div class="card-element college-name">
+                                    <span class="card-title">College Name:</span>
+                                    <span class="card-input" id="cardCollegeName"></span>
+                                </div>
+                                <div class="card-element college-name">
+                                    <span class="card-title">Location:</span>
+                                    <span class="card-input" id="cardLocation"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+    /* Header css */
+    
+     :root {
+        --bg-oficial: #4047F0;
+        --font-body: 'Montserrat', sans-serif;
+    }
+    
+    .bd-navbar {
+        min-height: 4rem;
+        background-color: var(--bg-oficial);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
+        padding-top: .5em;
+        padding-bottom: .5em;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+    
+    .title-navbar {
+        font-family: var(--font-body);
+        font-weight: 600;
+        font-size: 35px;
+    }
+    
+    .subtitle-section {
+        color: var(--bg-oficial);
+        font-family: var(--font-body);
+        font-weight: 600;
+        font-size: 25px;
+    }
+    
+    .subtitle-card {
+        font-family: var(--font-body);
+        font-weight: 600;
+        font-size: 25px;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .container-general {
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid #c8c8c8;
+    }
+    
+    .section-left {
+        border-bottom-left-radius: 16px;
+    }
+    
+    .section-right {
+        border-bottom-right-radius: 16px;
+    }
+    
+    .container-box {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .form-element {
+        margin: 5px;
+        min-width: 200px;
+    }
+    
+    .form-box {
+        width: 100%;
+        max-width: 285px;
+    }
+    
+    .form-label {
+        min-width: 150px;
+        display: block;
+        font-family: var(--font-body);
+        font-weight: 600;
+    }
+    
+    .form-input {
+        display: block;
+        border: 1px solid #C4B4B4;
+        border-radius: 10px;
+        height: 40px;
+        padding: 5px 10px 5px 40px;
+    }
+    
+    .font-icon {
+        position: relative;
+    }
+    
+    .font-icon i {
+        position: absolute;
+        left: 15px;
+        top: 45px;
+        color: #000;
+    }
+    
+    .btn-generate {
+        border: none;
+        border-radius: 10px;
+        background-color: var(--bg-oficial);
+        color: #fff;
+        font-family: var(--font-body);
+        font-weight: bold;
+        padding: .5em;
+        margin-top: 1em;
+    }
+    
+    .id-card-container {
+        display: none;
+    }
+    
+    .card-container {
+        width: 90vw;
+        height: 300px;
+        border-radius: 10px;
+        font-family: var(--font-body);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+    }
+    
+    .card-title {
+        font-size: 16px;
+        color: #BABFC9;
+        font-weight: bold;
+    }
+    
+    .card-input {
+        font-size: 16px;
+        color: #515A67;
+        font-weight: bold;
+    }
+    
+    .card-wrapper {
+        width: 80vw;
+        height: 250px;
+        background-color: #fff;
+        background: linear-gradient(#f8f8f8, #fff);
+        box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        margin: 1.5rem;
+        display: flex;
+    }
+    
+    .user-card {
+        width: 30vw;
+        height: 100%;
+        position: relative;
+        background: linear-gradient(to top, var(--bg-oficial), #8f94fb);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .general-information {
+        width: 60vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #F8F8F8;
+    }
+    
+    .user-photo {
+        font-size: 6em;
+        color: white;
+    }
+    
+    .card-element {
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .card-name {
+        font-size: 1.5rem;
+    }
+    
+    .college-name {
+        font-size: 1.2rem;
+    }

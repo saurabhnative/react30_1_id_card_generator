@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "carlacentenor",
+      "name": "Carlita Centeno",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/32285482?v=4",
+      "profile": "https://carlacentenor.github.io/Portafolio/",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "react30_1_id_card_generator",
+  "projectOwner": "codeclassifiers",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

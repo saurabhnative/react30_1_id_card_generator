@@ -17,6 +17,16 @@ DOM manipulation using Javascript
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1602558431/Blogimages/sol2_jonk5k.gif" height="400"/>
 
 
+
+### Some good resources for Javascript,HTML and CSS
+
+* [MDN(Js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [GFG(Js)](https://www.geeksforgeeks.org/javascript-tutorial/)
+* [GFG-some common mistakes](https://www.geeksforgeeks.org/javascript-common-mistakes/?ref=lbp)
+* [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+
+
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

@@ -16,6 +16,11 @@ DOM manipulation using Javascript
 [Solution_2](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_2):   
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1602558431/Blogimages/sol2_jonk5k.gif" height="400"/>
 
+### JavaScript Cheat Sheets
+
+1. [iLoveCoding JavaScript CheatSheet](https://ilovecoding.org/blog/js-cheatsheet)
+2. [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+3. [Beginner's JavaScript CheatSheet](https://websitesetup.org/javascript-cheat-sheet/)
 
 ## Contributors ✨
 

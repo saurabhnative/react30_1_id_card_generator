@@ -24,6 +24,16 @@ DOM manipulation using Javascript
 [Solution 3](https://res.cloudinary.com/dk22rcdch/image/upload/v1602919400/Blogimages/sol4_header_m6jcoq.gif)   
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1602938003/Blogimages/id_card_sol_1_b0olll.gif" height="400"/>
 
+
+### Some good resources for Javascript,HTML and CSS
+
+* [MDN(Js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [GFG(Js)](https://www.geeksforgeeks.org/javascript-tutorial/)
+* [GFG-some common mistakes](https://www.geeksforgeeks.org/javascript-common-mistakes/?ref=lbp)
+* [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+
+
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

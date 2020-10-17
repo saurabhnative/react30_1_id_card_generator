@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Commissioner', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+  margin: 20px 0;
+  font-size: larger;
+  font-family: 'Commissioner', sans-serif;
+  
+}
+
+h1 {
+  color: #09aaa5;
+  font-size: larger;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+input, label {
+  margin-top: 10px;
+padding: 3px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: #c4fff9;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.form-element {
+  margin: 5px;
+  min-width: 200px;
+  display: flex;
+}
+
+.form-label {
+  min-width: 150px;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px black;
+  border: 1px solid black;
+  padding: 5px 8px;
+  background: #06b1ab;
+font-weight: bold;
+  font-size: medium;
+  color: white;
+}
+
+.id-card-container {
+  display: none;
+}
+
+.card-container {
+  width: 90vw;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+  background: #3dccc7;
+  font-family: 'Commissioner', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrapper {
+  width: 80vw;
+  height: 250px;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
+  display: flex;
+}
+
+.user-card {
+  width: 30vw;
+  height: 100%;
+  position: relative;
+  background: #9ceaef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.general-information {
+  width: 60vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.user-photo {
+  font-size: 7em;
+}
+
+.card-element {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.card-name {
+  font-size: 1.5rem;
+}
+
+.college-name {
+  font-size: 1.2rem;
+}
+
+#cardName, #cardCollegeName, #cardLocation {
+  font-family: 'Architects Daughter';
+  margin-left: 8px;
+  font-size: larger;
+}

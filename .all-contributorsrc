@@ -22,6 +22,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jordanhilado",
+      "name": "Jordan Hilado",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37820188?v=4",
+      "profile": "http://www.linkedin.com/in/jordanhilado",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

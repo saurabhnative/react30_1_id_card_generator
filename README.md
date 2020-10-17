@@ -10,6 +10,11 @@ Populate values in ID card using Javascript
 ### Learnings:
 DOM manipulation using Javascript
 
+### JavaScript Cheat Sheets
+
+1. [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+2. [Beginner's JavaScript CheatSheet](https://websitesetup.org/javascript-cheat-sheet/)
+
 [Solution_1](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_1):   
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1602039713/Blogimages/gif2_b9c37s.gif" height="400"/>
 

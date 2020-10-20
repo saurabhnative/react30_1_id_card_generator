@@ -1,0 +1,134 @@
+<!DOCTYPE html><html> <head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<meta charset="utf-8">
+       <title>ID Card Creator!</title>
+       <link href="style.css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Montserrat"><script type="text/javascript" async="true">function idCard() {
+  var firstName = document.getElementById("firstname").value;
+  var lastName = document.getElementById("lastname").value;
+  var address = document.getElementById("addressInput").value;
+  var zipCode = document.getElementById("zipCodeInput").value;
+  var fullname = (firstName + " " + lastName);
+  document.getElementById("postFullName").innerHTML= fullname
+  var age= document.getElementById("ageInput").value;
+  var phoneNumber = document.getElementById("PhoneNumber").value;
+  document.getElementById("postAddress").innerHTML= (" " + address + " : " + zipCode );
+  numberArray = [age, phoneNumber]
+  for (let i = 0; i < numberArray.length;i++) {
+    if (numberArray[0] <= 100 && numberArray[1] > 100){
+       document.getElementById("postAge").innerHTML= ("Age: " + age);
+       document.getElementById("postPhoneNumber").innerHTML = (" Phone Number: "+ phoneNumber);
+       } else if (numberArray[0]+ 1 > 100 && numberArray[1] < 100 || numberArray[0] === 0) {
+           alert("Please Enter vaild age credentials");
+         } else if (numberArray[1] < 100 && numberArray[0] <= 100 || numberArray[1] === 0) {
+            alert("Phone Number is invaild please re-enter");
+           } else {
+             alert("Please re-enter credentials");
+             }
+   }
+}
+</script><style type="text/css">img {
+    width: 90px;
+    height: 90px;
+    float: left;
+ }
+
+ #idCard {
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 14em;
+    width: 25em;
+    background-color: aliceblue;
+    float: none;
+    margin: 0 auto;
+    margin-top: -3px;
+ }
+ body {
+    font-family: 'Montserrat', sans-serif;
+    background: repeating-linear-gradient(137deg, #000000, #0e0061 1%);
+    color: white;
+ }
+ #postFullName{
+     font-size: 19pt;
+     text-align: center;
+     color: gray;
+ }
+.section {
+    text-align: center;
+
+}
+#h1 span{
+    color: white;
+}
+.firstname {
+    align-content: center;
+    text-align: center;
+}
+#postAge{
+    color: #000000;
+}
+#postPhoneNumber{
+    color: #000000;
+}
+#postAddress{
+    color: #000000;
+}
+.submitbtn {
+    font-family: Arial, normal;
+    background-color: #6b0000;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    outline: none dashed greenyellow;
+    position: relative;
+    left:400x;
+    bottom: -10px;
+    display: block;
+    margin:auto;
+
+
+}
+.submitdiv{
+    float:none;
+    margin: 0 auto;
+}
+.submitbtn:hover{
+    background-color: #1db100;
+    border-radius: 60px;
+}
+</style></head><body>      <div class="section">
+      <h1><span>Let's Create an ID card!</span></h1>
+    </div>
+      <div id="idCard">
+          <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+          <p id="postFullName"></p>
+          <p id="postAge"></p>
+          <p id="postPhoneNumber"></p>
+          <p id="postAddress"></p>
+      </div>
+      <script src="script.js"></script>
+
+    <!-- Input and Label start -->
+    <div class="section">
+        <lable name="First Name" class="firstname">First Name:
+        </br><input name="First Name" id="firstname" placeholder="First Name" type="text" required></br>
+        </lable></br>
+        <lable name="Last Name" id="lastnamelable">Last Name:
+        <br><input name="Last Name" id="lastname" placeholder="Last Name" type="text" required></br>
+        </lable></br>
+        <lable age="Age" id="ageLable">Age:
+        </br><input age="Age" id="ageInput" placeholder="Age ex.10-100" type="age" required></br>
+        </label></br>
+        <label phonenumber="Phone Number" id="phonenumberlable">Phone Number:
+        </br><input phonenumber="Phone Number" placeholder="Phone # ex.1234567890" id="PhoneNumber" type="Phone Number" required></br>
+        </lable></br>
+       <label class="address">Address:</label>
+        </br><input id="addressInput" address="Home Address" placeholder="ex.1285 W Walter Way" type="text" required></br>
+       </br><lable class="address" address"Zip Code">Zip Code:
+       </br><input id="zipCodeInput" address="Zip Code" placeholder="Zip Code Ex. 85310" type="Zip Code" required></br>
+       </div>
+       <!-- Submit Button Here-->
+       <div class="submitdiv">
+         <button class="submitbtn" onclick="idCard()">Generate ID Card</button></br>
+      </div></body></html>

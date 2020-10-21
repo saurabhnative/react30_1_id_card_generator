@@ -31,6 +31,9 @@ DOM manipulation using Javascript
 [Solution 3](https://res.cloudinary.com/dk22rcdch/image/upload/v1602919400/Blogimages/sol4_header_m6jcoq.gif)   
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1602938003/Blogimages/id_card_sol_1_b0olll.gif" height="400"/>
 
+[Solution 5](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_5)   
+<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1603244387/Blogimages/Untitled_gxk2cs.gif" height="400" />   
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

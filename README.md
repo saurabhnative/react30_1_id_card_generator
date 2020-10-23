@@ -1,6 +1,6 @@
 # react30_1_id_card_generator
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ID card generation assignment for react 30
 
@@ -51,6 +51,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.iitianexpatiates.blogspot.com"><img src="https://avatars1.githubusercontent.com/u/57412580?v=4" width="100px;" alt=""/><br /><sub><b>Jeevesh Jain</b></sub></a><br /><a href="https://github.com/codeclassifiers/react30_1_id_card_generator/commits?author=jain777" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/tispn"><img src="https://avatars3.githubusercontent.com/u/64691616?v=4" width="100px;" alt=""/><br /><sub><b>Sandhya Nimbark</b></sub></a><br /><a href="https://github.com/codeclassifiers/react30_1_id_card_generator/commits?author=tispn" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Ashlin21dev"><img src="https://avatars0.githubusercontent.com/u/69051420?v=4" width="100px;" alt=""/><br /><sub><b>Ashlin dev</b></sub></a><br /><a href="https://github.com/codeclassifiers/react30_1_id_card_generator/commits?author=Ashlin21dev" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/loganlokku"><img src="https://avatars0.githubusercontent.com/u/50902574?v=4" width="100px;" alt=""/><br /><sub><b>Sooriyakumar Loganathan</b></sub></a><br /><a href="https://github.com/codeclassifiers/react30_1_id_card_generator/commits?author=loganlokku" title="Documentation">📖</a></td>
   </tr>
 </table>
 

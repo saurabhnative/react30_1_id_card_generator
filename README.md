@@ -14,6 +14,8 @@ DOM manipulation using Javascript
 
 1. [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 2. [Beginner's JavaScript CheatSheet](https://websitesetup.org/javascript-cheat-sheet/)
+3. [Beginner's JavaScript free tutorial](https://www.w3schools.com/js/DEFAULT.asp)
+
 
 ### Some good resources for Javascript,HTML and CSS
 

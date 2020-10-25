@@ -2,20 +2,18 @@
 //Deepak 
 #include <stdio.h>
 #include <string.h>
-#include <time.h>
 #include <stdlib.h>
-#include <conio.h>
 struct id_Card
 {
     int Name[100];
     int company[100];
     int location[100];
+};
 
-};struct id_Card e1;
-
+struct id_Card e1;
 
 int main()
-{   int i=0,id[10];
+{   
     printf("\t****id Card genrator by using c programming****\n");
     printf("\tEnter the information of employe \n");
     printf("\t Enter the name \n");
@@ -24,26 +22,10 @@ int main()
     scanf("%s",&e1.company);
     printf("\tEnter the location or present adress of employe\n");
     scanf("%s",&e1.location);
-    printf("     *****Genrating id card................\n");
+    printf("     *****Generating id card................\n");
     printf("\t Name   = %s\n",e1.Name);
     printf("\t Company Name = %s\n",e1.company);
-    printf("\t Loaction = %s\n",e1.location);
-  for (int i = 0; i <10; i++)
-  {
-     
-     srand(time(NULL));
-     id[i]= rand()%10;
-    i++;  
-  
-      
-  }
-  
-  printf("\t EMploy id = ");
-  for (int i = 0; i <10; i++)
-  {
-     printf("%d",id[i]);
-    i++;  
-  }
+    printf("\t Location = %s\n",e1.location);
   
     return 0;
 }

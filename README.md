@@ -24,7 +24,6 @@ DOM manipulation using Javascript
 * [GFG(Js)](https://www.geeksforgeeks.org/javascript-tutorial/)
 * [GFG-some common mistakes](https://www.geeksforgeeks.org/javascript-common-mistakes/?ref=lbp)
 * [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-* [Stack(Js)](https://stackoverflow.com/)
 
 
 [Solution_1](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_1):   

@@ -76,6 +76,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "JiriJAdam",
+      "name": "Jiri Adam Jr ",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54760137?v=4",
+      "profile": "https://github.com/JiriJAdam",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

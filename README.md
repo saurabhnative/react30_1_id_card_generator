@@ -15,6 +15,7 @@ DOM manipulation using Javascript
 1. [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 2. [Beginner's JavaScript CheatSheet](https://websitesetup.org/javascript-cheat-sheet/)
 3. [Beginner's JavaScript free tutorial](https://www.w3schools.com/js/DEFAULT.asp)
+4. [JavaScript CheatSheet](https://cheatography.com/tag/javascript/)
 
 
 ### Some good resources for Javascript,HTML and CSS
@@ -23,6 +24,7 @@ DOM manipulation using Javascript
 * [GFG(Js)](https://www.geeksforgeeks.org/javascript-tutorial/)
 * [GFG-some common mistakes](https://www.geeksforgeeks.org/javascript-common-mistakes/?ref=lbp)
 * [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+
 
 [Solution_1](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_1):   
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1602039713/Blogimages/gif2_b9c37s.gif" height="400"/>

@@ -24,7 +24,7 @@ DOM manipulation using Javascript
 * [GFG(Js)](https://www.geeksforgeeks.org/javascript-tutorial/)
 * [GFG-some common mistakes](https://www.geeksforgeeks.org/javascript-common-mistakes/?ref=lbp)
 * [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-
+* [Net Ninja ](https://www.youtube.com/watch?v=0Mp2kwE8xY0&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml)
 
 [Solution_1](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_1):   
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1602039713/Blogimages/gif2_b9c37s.gif" height="400"/>

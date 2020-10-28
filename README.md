@@ -38,8 +38,8 @@ DOM manipulation using Javascript
 [Solution 5](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_5)   
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1603244387/Blogimages/Untitled_gxk2cs.gif" height="400" />   
 
-[Solution 5](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_6)   
-<img src="https://res.cloudinary.com/sudeepisiron/image/upload/v1603852852/ezgif.com-gif-maker.gif" height="400" />   
+[Solution 6](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_6)   
+<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1603897880/Blogimages/Untitled_aq2dcx.gif" height="400" />   
 
 ## Contributors ✨
 

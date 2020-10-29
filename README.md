@@ -41,6 +41,14 @@ DOM manipulation using Javascript
 [Solution 6](https://github.com/codeclassifiers/react30_1_id_card_generator/tree/master/solution_6)   
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1603897880/Blogimages/Untitled_aq2dcx.gif" height="400" />   
 
+### Connect with me on the web:
+🦜 Twitter: https://twitter.com/saurabhnative  
+💼 LinkedIn: https://www.linkedin.com/in/saurabh-mhatre   
+🖥 Github: https://github.com/smhatre59  
+🎬 Youtube: https://www.youtube.com/channel/UCtWzTuAO-uEnGhrktGNPi0g  
+📃 Website: https://coderwhodreams.com   
+📝 Medium: https://medium.com/@smhatre59  
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
